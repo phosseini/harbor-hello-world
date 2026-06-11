@@ -1,9 +1,9 @@
 # harbor-hello-world
 
 [Harbor](https://github.com/harbor-framework/harbor) is a framework for
-running and grading AI agents on tasks inside isolated Docker containers.
-This repo is a minimal Harbor task — `kidney-function-calc` — used as a
-hands-on intro to how Harbor builds, runs, and grades agent tasks.
+specifying sandboxed agent tasks for evaluation and optimization. This repo
+is a minimal Harbor task — `kidney-function-calc` — used as a hands-on intro
+to how Harbor builds, runs, and grades agent tasks.
 
 The task itself is small on purpose: given a short clinical vignette, an
 agent must compute a creatinine clearance (Cockcroft-Gault) and write the
