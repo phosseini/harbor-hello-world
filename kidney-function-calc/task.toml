@@ -1,0 +1,30 @@
+schema_version = "1.3"
+artifacts = []
+
+[task]
+name = "medicalsphere/kidney-function-calc"
+description = "Estimate creatinine clearance via Cockcroft-Gault from a vignette."
+authors = [{ name = "Pedram", email = "pedram@medicalsphere.ai" }]
+keywords = ["medical", "medcalc", "clinical-calculation"]
+
+[metadata]
+difficulty_explanation = "Single deterministic clinical formula."
+category = "medical-calculation"
+
+[verifier]
+timeout_sec = 120.0
+
+[verifier.env]
+
+[agent]
+timeout_sec = 300.0
+
+[environment]
+network_mode = "public"
+build_timeout_sec = 600.0
+os = "linux"
+mcp_servers = []
+
+[environment.env]
+
+[solution.env]

@@ -1,0 +1,8 @@
+# Secrets
+.env
+
+# Harbor run artifacts
+jobs/
+
+# OS
+.DS_Store
